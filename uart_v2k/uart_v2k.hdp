@@ -1,0 +1,11 @@
+[hdl]
+uart_v2k_lib = $HDS_PROJECT_DIR\uart_v2k_lib\hdl
+[hds]
+uart_v2k_lib = $HDS_PROJECT_DIR\uart_v2k_lib\hds
+[hds_settings]
+default_library = uart_v2k_lib
+version = 3
+[library_type]
+uart_v2k_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
